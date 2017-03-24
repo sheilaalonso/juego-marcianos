@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>New HMTL document by NewJect</title>
+    <style>
+        
+        #lienzo{
+            
+            width: 1400px;
+            height:600px;
+            background-image:url('img/luna.png');
+            background-size: cover;
+            overflow: hidden;
+            margin:auto;
+            
+        }
+       
+        #marciano1{
+            
+            width: 100px;
+            height: 100px;
+            background-image: url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            position:absolute;
+            
+        }
+        #marciano2{
+            
+            width: 100px;
+            height: 100px;
+            background-image:url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            bottom:0;
+            left:800px;
+            position:absolute;
+            
+        
+        }
+        
+        #marciano3{
+            
+            width: 100px;
+            height: 100px;
+            background-image: url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            bottom:0;
+            right:800px;
+            position:absolute;
+            
+             }
+        
+        #marciano4{
+            
+            width: 100px;
+            height: 100px;
+            background-image: url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+          
+            right:800px;
+            position:absolute;  
+            
+        }
+        #marciano5{
+            
+            width: 100px;
+            height: 100px;
+            background-image: url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            bottom:200px;
+            right:800px;
+            position:absolute;  
+            
+        }
+        
+        #marciano6{
+            
+            width: 100px;
+            height: 100px;
+            background-image: url(img/marciano.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            bottom:100px;
+            right:800px;
+            position:absolute;  
+        }
+       .explosion{
+           width: 50px;
+           height: 50px;
+        
+     
+           color:white;
+           font-size: 3em;
+        }
+        
+        
+        .marcador{
+            
+          
+            text-decoration: underline;
+            color:black;
+            font-weight: bolder;
+            margin:auto;
+             padding:1.5em;
+            
+        }
+        #marcador-salida{
+              
+              
+               text-decoration: underline;
+               color:black;
+               font-weight: bolder;
+               margin:auto;
+               padding:1.5em;
+        }
+       
+    
+    
+    
+    </style>
+
+</head>
+<body>
+
+<div>
+<h1>JUEGO MARCIANOS</h1>
+</div>
+
+    <div id="lienzo">
+      
+    
+      <div id="marciano1"></div>
+        <div id="marciano2"></div>
+          <div id="marciano3"></div>
+           <div id="marciano4"></div>
+             <div id="marciano5"></div>
+                <div id="marciano6"></div>
+    
+    </div>
+    <div class="marcador">1</div>
+    <div id="marcador-salida"></div>
+    
+    <button>JUGAR</button>
+     <button onclick="location.reload()">REPLAY</button>
+    
+      <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="crossorigin="anonymous"></script>
+    
+    <script src="juego-marcianos.js"></script>
+</body>
+</html>
